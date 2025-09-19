@@ -1,4 +1,4 @@
-path: c:/Users/thoma/Documents/Projets/yoloRecognizer/data
+path: C:\Users\thoma\Documents\Projet\MangaBubbleRecognizer\data
 train: images/train 
 val: images/val
 test: images/test
