@@ -9,7 +9,7 @@ val_label_dir = 'data/labels/val'
 
 img_train = [f for f in os.listdir(train_img_dir) if f.endswith('.png')]
 
-img_sample = random.sample(img_train, 25)
+img_sample = random.sample(img_train, 30)
 
 for img in img_sample:
     shutil.copy(os.path.join(train_img_dir, img), os.path.join(val_img_dir, img))

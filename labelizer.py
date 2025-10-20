@@ -11,7 +11,7 @@ class BubbleAnnotator:
     def __init__(self, root, images):
         self.root = root
         self.images = images
-        self.current_index = 120
+        self.current_index = 200
         self.boxes = []
         self.box_objects = []  # Store canvas IDs and handles
         self.start_x = self.start_y = 0
